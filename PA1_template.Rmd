@@ -12,7 +12,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
 ```{r}
 library(dplyr)
-data <- read.csv("../CourseProject1/activity.csv")
+data <- read.csv("../activity.csv")
 data$date <- as.Date(data$date, "%Y-%m-%d")
 ```
 
